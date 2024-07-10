@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 /* generocs */
 
 body {
@@ -20,6 +24,21 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#red {
+    background-color: red;
+}
+
+
+#green {
+    background-color: green;
+}
+
+
+#yellow {
+    background-color: yellow;
+}
+
 
 /* section */
 
