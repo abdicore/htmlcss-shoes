@@ -19,6 +19,15 @@ h1 {
     font-size: 32px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* utilities */
 .conteiner {
     max-width: 1200px;
@@ -44,7 +53,6 @@ h1 {
 
 .full-page {
     height: 100vh;
-    background-color: red;
     position: relative;
 }
 
@@ -54,4 +62,28 @@ h1 {
     left: 50%;
     text-align: center;
     translate: -50% -50%;
+}
+
+/* bottoni */
+
+.header-menu {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    translate: 0 -50%;
+}
+
+.header-menu a {
+    background-color: lightgray;
+    color: white;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
 }
